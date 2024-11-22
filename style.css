@@ -1,0 +1,101 @@
+.menu{
+    background-color: #001f27;  
+}
+.capa{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.cabecario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+#texto-titulo{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: weight;
+    font-style: bold;
+    gap: 30px;   
+    text-indent: 10px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #006882;
+}
+#texto-menu{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: weight;
+    font-style: bold;
+    gap: 30px;   
+    text-indent: 10px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #fdfdfd;
+    justify-content: center;
+}
+#texto-menu:hover{
+    color:darkgrey;
+    cursor: pointer;
+}
+#texto{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: weight;
+    font-style: bold;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #001f27;
+}
+.corpo{
+    padding: 5% 35% 10% 5%;
+    background-image: url(escritorio.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.paragrafos{
+    padding: 13px;
+    background-color: #fdfdfd;
+    margin: 15px 15px 15px 15px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.partes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.produtos{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-color: #006882;
+    border-radius: 16px;
+    border-style: groove;
+}
+.contato{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+#foto{
+    height: 275px;
+}
+#imagem-logo{
+    width: 60px;
+}
+#imagem{
+    width: 165px;
+}
+#imagem-contato{
+    color: #00677E;
+}
+.botao{
+    padding: 1px;
+}
